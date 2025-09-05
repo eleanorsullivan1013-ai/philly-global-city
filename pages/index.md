@@ -9,7 +9,7 @@ position: center
 # major heading to display over featured image
 heading: Philadelphia the Global City
 # paragraph text below heading in featured image
-sub-heading: 
+sub-heading: The Italian Legacy across Time
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
 padding: 6em
 # Edit the markdown on in this file to describe your collection
