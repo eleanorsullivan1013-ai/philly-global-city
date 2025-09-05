@@ -16,8 +16,8 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-This is an introduction to the project.
+This website features an interactive map of key sites and objects related to the Italian legacy in Philadelphia.
 
 <div class="text-center">
-    <a href="{{ 'map.html' | relative_url }}" class="btn btn-primary btn-lg">View the Map</a>
+    <a href="{{ 'map.html' | relative_url }}" class="btn btn-primary btn-lg mb-2">View the Map</a>
 </div>
