@@ -17,6 +17,7 @@ layout: default
 
 <style>
     #about-feature {
+        position: relative;
         padding: 4rem 0;
         margin-bottom: 1rem;
         {% if page.about-featured-image %}
@@ -43,6 +44,13 @@ layout: default
             padding-left: 1rem !important;
         }
     }
+
+    .image-credits {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-size: 0.75rem;
+    }
 </style>
 <div id="about-feature">
     <div class="about-title-box">
@@ -50,6 +58,8 @@ layout: default
         <div class="p-2 text-start text-white bg-dark bg-opacity-75 about-title">
             {% if page.heading %}<h2 class="display-1">{{ page.heading }}</h2>{% endif %}
             {% if page.sub-heading  %}<h3 class="about-tagline h5">{{ page.sub-heading }}</h3>{% endif %}
+            {% if page.featured-image-credits %}<div class="px-2 py-1 image-credits"><a class="text-white shadow" href="{{ page.featured-image-credits }}">Image credits</a></div>{% endif %}
+
         </div>
         {% endif %}
     </div>
